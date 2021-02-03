@@ -3,11 +3,11 @@ const router = express.Router()
 const posts = require('../model/posts')
 
 router.get('/', (request, response) => {
-    return response.status(200).send()
+    return
 })
 
 router.get('/favicon.ico', (request, response) => {
-    return response.status(200).send()
+    return
 })
 
 router.get('/posts', (request, response) => {
