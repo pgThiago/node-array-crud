@@ -1,4 +1,4 @@
-const PORT = process.env.port || 3333
+const PORT = process.env.PORT || 3333
 
 const express = require('express')
 const path = require('path')
