@@ -27,7 +27,7 @@ function listPosts() {
                         postsElement.innerHTML += 
                         `
                             <div class="card border-light mb-2" style="max-width: 50rem;" >
-                                <div class="card-body bg-dark text-light">
+                                <div class="card-body text-dark">
                                         <h5 class="card-title">${dataItem.title}</h5>
                                     <p class="card-text">${dataItem.description}</p>
                                 </div>
