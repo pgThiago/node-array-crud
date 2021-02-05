@@ -1,6 +1,6 @@
-const generateID = require('../utils/generateId')
+import { generateID } from '../utils/generateId.js'
 
-module.exports = {
+export default {
     posts: [],
 
     index() {

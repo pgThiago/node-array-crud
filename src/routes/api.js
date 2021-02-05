@@ -1,14 +1,7 @@
-const express = require('express')
+import express from 'express'
+import posts from '../model/posts.js'
+
 const router = express.Router()
-const posts = require('../model/posts')
-
-router.get('/', (request, response) => {
-    return
-})
-
-router.get('/favicon.ico', (request, response) => {
-    return
-})
 
 router.get('/posts', (request, response) => {
     return response.json(posts.index())
@@ -36,4 +29,4 @@ router.delete('/delete/:id', (request, response) => {
     return response.status(200).send('Post deleted successfully')
 })
 
-module.exports = router
+export default router
